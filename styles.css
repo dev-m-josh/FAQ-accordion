@@ -12,7 +12,7 @@ body {
   width: 1200px;
   background-color: hsl(275, 100%, 97%);
 }
-
+/*
 p {
   color: rgb(187, 185, 185);
   font-size: 16px;
@@ -47,7 +47,12 @@ p {
   max-height: fit-content;
 }
 
-.h4 {
+.blacky {
+  display: flex;
+  justify-content: space-between;
+}
+
+.apart {
   display: flex;
   justify-content: space-between;
 }
@@ -58,7 +63,7 @@ a{
 }
 
 
-.query:hover {
+h4:hover {
   color: #d366bb;
   cursor: pointer;
   caret-color: black;
